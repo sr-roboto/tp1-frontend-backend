@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Ruta GET con parámetro nombre
 app.get('/saludo/:nombre', (req, res) => {
   const nombre = req.params.nombre;
-  res.send(`Hola, ${nombre}!`);
+  res.send(`Hola, ${nombre}! :)`);
 });
 
 app.listen(port, () => {
