@@ -1,0 +1,33 @@
+Trabajo Práctico N° 1 – Frontend & Backend
+
+Objetivo: Aplicación que muestra un mensaje de bienvenida personalizado
+utilizando Node.js, Express, HTML, CSS y JavaScript.
+
+Requisitos del Proyecto:
+
+1. Backend:
+
+- Servidor creado con Node.js y Express.js.
+- API que acepta un nombre como parámetro y devuelve un mensaje de bienvenida.
+- Ruta accesible mediante una solicitud GET.
+
+2. Frontend:
+
+- Interfaz simple con HTML, CSS y JS.
+- Campo de texto para ingresar nombre.
+- Botón para enviar una solicitud GET al servidor.
+- Muestra el mensaje de bienvenida devuelto.
+
+Pasos para ejecutar:
+
+1. Clonar el repositorio o copiar los archivos del proyecto.
+
+2. Instalar dependencias: npm install
+
+3. Ejecutar el servidor: node server.js
+
+4. Abrir el navegador y visitar: http://localhost:3000
+
+Estructura del Proyecto:
+
+/tp1-frontend-backend │ ├── server.js └── public/ └── index.html
