@@ -27,7 +27,3 @@ Pasos para ejecutar:
 3. Ejecutar el servidor: node server.js
 
 4. Abrir el navegador y visitar: http://localhost:3000
-
-Estructura del Proyecto:
-
-/tp1-frontend-backend │ ├── server.js └── public/ └── index.html
