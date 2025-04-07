@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bienvenida</title>
   <style>
     body {
@@ -10,15 +11,18 @@
       text-align: center;
       margin-top: 50px;
     }
+
     input {
       padding: 8px;
       font-size: 16px;
     }
+
     button {
       padding: 8px 16px;
       font-size: 16px;
       margin-left: 10px;
     }
+
     #mensaje {
       margin-top: 20px;
       font-size: 18px;
@@ -26,6 +30,7 @@
     }
   </style>
 </head>
+
 <body>
   <h1>Ingresa tu nombre</h1>
   <input type="text" id="nombre" placeholder="Tu nombre" />
@@ -40,7 +45,7 @@
         return;
       }
 
-      fetch(`/saludo/${encodeURIComponent(nombre)}`)
+      fetch(`/saludo/${nombre}`)
         .then(response => response.text())
         .then(data => {
           document.getElementById('mensaje').textContent = data;
@@ -52,4 +57,5 @@
     }
   </script>
 </body>
+
 </html>
